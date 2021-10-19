@@ -1,10 +1,10 @@
-# Week-One-SQ009
+# My Second Task on Decagon
 
 ## Problem Description:
 
 You are to create a SPA (single page application) using html, CSS and JavaScript. It shows all characters from a star wars API (https://swapi.dev/api/people). Read the documentation and implement as follows.
 
-### Process ?
+### Process 
 
 1. Display a dummy image for all single characters
 
@@ -18,3 +18,8 @@ You are to create a SPA (single page application) using html, CSS and JavaScript
 
 5. When you are done, host on heroku or netlify (link should be added to your turned in field on Teams)
 
+# Results
+![ScreenShot](/logo/1.png)
+![ScreenShot](/logo/2.png)
+![ScreenShot](/logo/3.png)
+![ScreenShot](/logo/4.png)
