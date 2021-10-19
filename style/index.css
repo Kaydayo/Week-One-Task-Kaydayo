@@ -1,0 +1,160 @@
+body html{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./bg.jpg") no-repeat fixed;
+    background-size: cover; 
+    background-color: rgb(202, 54, 0);
+}
+
+.design-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.welcome{
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 14pt;
+   font-family: Helvetica, sans-serif;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(31, 30, 30);
+   width: 400px;
+   color: rgb(250, 248, 248);
+   margin-top: 20px;
+   box-shadow: 0 7px 16px 6px  rgba(34, 39, 46, 0.582) ;
+   border-radius: 30px;
+}
+.design-img img{
+    width: auto;
+    height: 150px;
+}
+
+#layout1{
+    margin-top: 50px;
+}
+
+div#card-box{
+    width: 75%;
+    height: 480px;
+    border-radius: 4px;
+}
+
+#set-col{
+    background-color:rgb(168, 1, 1);
+}
+
+.col-md-4 img{
+    width: auto;
+    height: 450px;
+    margin-left: 130px;
+    margin-top: 5px;
+    position: absolute;
+}
+.card{
+    color:black;
+    border-radius: 130px;
+    background-color: rgb(46, 45, 44);
+    
+}
+
+.set-white, .card-body {
+    border:0.000001px solid rgba(0, 0, 0, 0.178);
+    height: 230px;
+}
+.card-img-top{
+    margin-left: 130px;
+}
+
+.set-col{
+    background-color: rgb(168, 1, 1);
+    width: 4000px;
+}
+
+.card-body{
+    background-color: rgb(31, 30, 30);
+    box-shadow: 0px 0px 13px 8px rgba(0, 0, 0, 0.377);
+    border-end-start-radius: 40px;
+}
+.card-title, .card-text{
+    color: white;
+}
+
+p.card-text{
+    position: absolute;
+    top: 190px;
+}
+
+.card-body:hover{
+    scale: 190%;
+}
+
+a.btn{
+    position: absolute;
+    bottom: 40px;
+}
+
+.container{
+    padding-left: 100px;
+}
+
+.btn{
+    background-color: rgb(168, 1, 1);
+    border: none;
+}
+
+.card-title{
+    font-weight: 900;
+    font-size: 35pt;
+    width: 230px;
+}
+
+.card-text+.force{
+    color: white;
+    position: absolute;
+    bottom: 120px;
+    width: 120px;
+}
+.modal-content{
+    background-color: rgba(255, 255, 255, 0.185);
+    height: 80vh;
+    display: flex;
+}
+.modal-header{
+    border: none;
+}
+
+.modal-footer{
+    border: none;
+}
+.show-img{
+    left: 130px;
+    top: 30px;
+}
+
+.modal-title{
+    color: rgb(255, 255, 255);
+    font-size: 14pt;
+    font-weight: 300;
+    margin-top: 40px;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.295);
+    border-radius: 30px;
+    padding-left: 20px;
+    box-shadow: 0 0 13px 5px rgba(235, 40, 14, 0.664);
+    width: 450px;
+}
+.large{
+    font-weight:900;
+    color: rgb(255, 255, 255);
+    fo
+    padding: 20px;
+    margin-left: 20px;
+    font-size: 15pt;
+    border-bottom-right-radius: 30px;
+    
+}
