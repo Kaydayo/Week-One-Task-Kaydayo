@@ -3,7 +3,7 @@
 }*/
 
 
-
+let defSpec = document.getElementById("special");
 let divEl = document.getElementById("layout1");
 
 fetch ("https://swapi.dev/api/people")
@@ -56,5 +56,9 @@ fetch ("https://swapi.dev/api/people")
         
     });
     
-});
+}).catch(err => {
+
+  defSpec.style.visibility = 'visible';
+  defSpec.style.top = '280px';
+  return console.log('no network')})
 //module.exports = {main}
